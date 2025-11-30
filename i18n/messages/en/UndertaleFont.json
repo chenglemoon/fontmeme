@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Undertale Font Generator - Free Online Undertale Text Maker | Monster Friend Font",
+    "description": "Free Undertale font generator with authentic Monster Friend Back & Fore fonts. Create pixel-perfect Undertale-style text instantly. Generate custom text graphics, download PNG images for fan art, memes, gaming content & social media. No sign-up required. 100% free Undertale pixel font maker online.",
+    "keywords": "undertale font, undertale font generator, undertale text generator, free undertale font, undertale text maker, monster friend font, undertale style font, undertale game font, undertale text creator, undertale font download, custom undertale text, undertale graphics, undertale meme font, undertale logo font, undertale pixel font, how to make undertale text, undertale font online, undertale text style, undertale fan art font, pixel font generator"
+  },
+  "hero": {
+    "title": "Undertale Font Generator",
+    "subtitle": "Create Text Graphics in Undertale Style",
+    "description": "Use the text generator below to convert your text into Undertale-style graphics online with Monster Friend fonts, you can then save the image or click on the EMBED button to get links to embed the image on the web.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Undertale Font",
+    "description1": "Undertale is a role-playing video game developed and published by indie developer Toby Fox and released for Microsoft Windows and OS X on September 15, 2015. The game logo features a pixelated font which is very similar to Monster Friend designed by Harry Wakamatsu from Japan. Monster Friend is available in two variants: Monster Friend Fore and Monster Friend Back, which are intended to be layered together to reproduce the perfect Undertale logo.",
+    "description2": "Alternatively, you can use our text generator below to quickly generate logos or images like the Undertale logo. After creating the logo, you can right-click on the image to save it or click on the EMBED button to get links to embed images on the web."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Undertale-style text graphics",
+    "example1": {
+      "title": "Monster Friend Back Style",
+      "description": "Create text graphics with Monster Friend Back font",
+      "badge": "Outline Style"
+    },
+    "example2": {
+      "title": "Monster Friend Fore Style",
+      "description": "Create text graphics with Monster Friend Fore font",
+      "badge": "Filled Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Undertale Font Generator?",
+    "subtitle": "Create authentic Undertale-style text graphics with Monster Friend fonts",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Authentic Fonts",
+      "description": "Choose from Monster Friend Back (outline) and Monster Friend Fore (filled) fonts, matching the original Undertale game style"
+    },
+    "effects": {
+      "title": "Dynamic Effects",
+      "description": "Apply gradients, shadows, and outlines to create eye-catching Undertale-style text graphics with bold visual impact"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Undertale-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Undertale text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Undertale-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Undertale-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into an Undertale-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select from Monster Friend Back (outline) or Monster Friend Fore (filled) fonts for different visual styles."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Undertale-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "How to download Undertale font?",
+      "answer": "You can use our free Undertale font generator to create text graphics with Monster Friend fonts. Simply enter your text, customize the style, and download the generated image. For the actual font files, you can visit the official font page or use our generator to create text graphics instantly without downloading fonts."
+    },
+    "q2": {
+      "question": "Is Undertale font free?",
+      "answer": "The Monster Friend fonts used in Undertale are available for download, but their licensing terms may vary. Our generator is completely free to use - you can create unlimited Undertale-style text graphics without any cost. Always check the specific license for font files if you plan to use them in commercial projects."
+    },
+    "q3": {
+      "question": "Can I use Undertale font commercially?",
+      "answer": "Commercial use of Undertale fonts depends on their specific licensing terms. Always check the license for each font you use. Some fonts may be free for personal use but require licensing for commercial projects. Our generator creates images that you can use, but for commercial font usage, refer to the original font license or Toby Fox's licensing terms."
+    },
+    "q4": {
+      "question": "What font does Undertale use?",
+      "answer": "Undertale uses the Monster Friend font family, designed by Harry Wakamatsu from Japan. The font includes two variants: Monster Friend Fore (filled style) and Monster Friend Back (outline style), which are layered together to create the perfect Undertale logo appearance."
+    },
+    "q5": {
+      "question": "How to make Undertale style text?",
+      "answer": "Use our Undertale font generator to create authentic Undertale-style text. Enter your text, select Monster Friend Back or Fore font, choose colors that match the game (like yellow for Sans' text), and apply effects. The generator will create pixelated text graphics that match the game's aesthetic instantly."
+    },
+    "q6": {
+      "question": "Where can I find Undertale font?",
+      "answer": "You can find Undertale fonts (Monster Friend) on various font websites, or use our free generator to create Undertale-style text graphics without downloading fonts. Our tool loads the fonts dynamically, so you can create text images immediately without any installation."
+    }
+  }
+}
+

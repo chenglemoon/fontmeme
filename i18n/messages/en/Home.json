@@ -1,0 +1,127 @@
+{
+  "title": "Font Meme",
+  "meta": {
+    "title": "Font Meme - Free Text to Image & Copy Paste Fonts | fontmeme.fun",
+    "description": "Create beautiful font images and copy-paste fancy text styles. Free online font generator with 180+ Unicode styles and text-to-image fonts for gaming, brands, and more.",
+    "keywords": "font generator, text to image, copy paste fonts, fancy text, Unicode fonts, font styles, fontmeme.fun"
+  },
+  "hero": {
+    "title": "Font Meme - Free Font Generator Online",
+    "subtitle": "Create Beautiful Text Styles & Fancy Fonts",
+    "description": "Transform your text into stunning images or copy-paste fancy Unicode styles. Free online font generator with 180+ text styles and 19+ text-to-image fonts. No signup required - start creating instantly!",
+    "button": "Get Started",
+    "before": "Before",
+    "after": "After"
+  },
+  "fontGeneratorTabs": {
+    "textToImage": "Text to Image Font",
+    "copyPaste": "Copy & Paste Fonts",
+    "moreButton": "View All Fonts"
+  },
+  "features": {
+    "title": "Why Choose fontmeme.fun?",
+    "coreFeature": "Core Feature",
+    "free": {
+      "title": "100% Free",
+      "description": "All font generation tools are completely free with no hidden costs or subscriptions."
+    },
+    "highResolution": {
+      "title": "High-Quality Output",
+      "description": "Download text images in high resolution for professional use."
+    },
+    "noSignup": {
+      "title": "No Signup Required",
+      "description": "Start generating fonts instantly without creating an account."
+    },
+    "private": {
+      "title": "Private & Secure",
+      "description": "All processing happens in your browser - your text never leaves your device."
+    },
+    "easyToUse": {
+      "title": "Easy to Use",
+      "description": "Simple interface makes creating beautiful fonts effortless for everyone."
+    },
+    "allDevices": {
+      "title": "Works Everywhere",
+      "description": "Access fontmeme.fun on desktop, tablet, or mobile - works on all devices."
+    }
+  },
+  "howToUse": {
+    "title": "How to Use Font Generator",
+    "subtitle": "Create beautiful fonts in just three simple steps",
+    "step1": {
+      "label": "STEP 1",
+      "title": "Enter Your Text",
+      "description": "Type or paste your text into the input box. For text-to-image fonts, you'll see a live preview as you type."
+    },
+    "step2": {
+      "label": "STEP 2",
+      "title": "Choose Your Style",
+      "description": "For copy-paste fonts, browse through 180+ styles and click to copy. For text-to-image fonts, customize colors, effects, and settings."
+    },
+    "step3": {
+      "label": "STEP 3",
+      "title": "Copy or Download",
+      "description": "Copy the styled text to your clipboard or download the image file. Use it anywhere - social media, documents, or designs!"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions (FAQs)",
+    "subtitle": "Find answers to common questions about fontmeme.fun",
+    "q1": {
+      "question": "How does Font Generator work?",
+      "answer": "Just enter your text, choose between copy-and-paste or text-to-image fonts, navigate through all the available options, and copy or download the generated text!"
+    },
+    "q2": {
+      "question": "What is the difference between copy-and-paste fonts and text-to-image fonts?",
+      "answer": "Copy-and-paste fonts use Unicode symbols that are similar to Latin alphabet characters to create stylish text you can paste anywhere online. If you want a wider variety of designs, text-to-image fonts let you use any custom font for your text and download it as an image, which you can print or copy to some places (e.g. a Word document)."
+    },
+    "q3": {
+      "question": "When pasting copy-and-paste fonts, why do some symbols show up as boxes (☐)?",
+      "answer": "This happens when the font, device or app you are using does not support the specific Unicode characters in the text. Not all fonts include every possible character, so if a character is not available, it may be displayed as a box or question mark."
+    },
+    "q4": {
+      "question": "Where can I use copy-and-paste fonts?",
+      "answer": "You can use copy-and-paste fonts on any platform that supports text input, including social media, messaging apps, and word processors. Just copy the styled text and paste it wherever you like!"
+    },
+    "q5": {
+      "question": "Are the fonts free to use?",
+      "answer": "Our tool is completely free. All copy-and-paste fonts can be freely used for any purpose, as they are just Unicode characters. For text-to-image fonts, please check the licensing information provided with each font."
+    },
+    "q6": {
+      "question": "Can I use my own fonts?",
+      "answer": "Our tool currently does not support uploading custom fonts. However, you can use any of the available copy-and-paste or text-to-image fonts provided on our platform."
+    },
+    "q7": {
+      "question": "How can I bold or italic text on Instagram, Discord or Facebook?",
+      "answer": "You can use our copy-and-paste fonts to create bold, italic, or strikethrough text instantly. Just type your text, copy the style you want, and paste it into your bio, comment, or message."
+    },
+    "q8": {
+      "question": "Can I generate fonts for tattoos or logos?",
+      "answer": "Yes! Use our text-to-image tool to preview names or quotes in real fonts and download them as PNG or SVG. Perfect for tattoos, logos, or personal designs."
+    }
+  },
+  "testimonials": {
+    "testimonial1": {
+      "content": "Perfect tool for creating beautiful fonts! I use it every day to generate stylish text for my social media posts. The text-to-image and copy-paste options make it so versatile. Highly recommended!",
+      "author": "@fontlover"
+    },
+    "testimonial2": {
+      "content": "As a designer, I need to create custom text graphics daily. This font generator saves me so much time. The high-quality output is perfect for all my projects, and it's completely free!",
+      "author": "@designer"
+    },
+    "testimonial3": {
+      "content": "I love how easy it is to use. Just type, choose a style, and copy or download. Perfect for Instagram bios, Discord names, and social media posts! The variety of fonts is amazing.",
+      "author": "@contentcreator"
+    },
+    "testimonial4": {
+      "content": "Finally, a tool that gives me control over my text styling! No more boring fonts. I can create bold, italic, or fancy Unicode text instantly. The text-to-image feature is exactly what I needed!",
+      "author": "@webdesigner"
+    },
+    "testimonial5": {
+      "content": "The best font generator I've found! 180+ copy-paste styles and multiple text-to-image fonts. Works perfectly on mobile too. Highly recommend for anyone who wants to style their text!",
+      "author": "@socialmediauser"
+    }
+  },
+  "tagLine": ""
+}

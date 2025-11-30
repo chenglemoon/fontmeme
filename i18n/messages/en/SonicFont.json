@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "title": "Sonic Font Generator - Free Online Sonic the Hedgehog Text Maker | Nise Sega Sonic Font",
+    "description": "Free Sonic the Hedgehog font generator with Nise Sega Sonic font. Create Sonic-style text graphics instantly for fan art, memes, logos & social media. Generate custom text, download PNG. No sign-up. 100% free online Sonic text maker.",
+    "keywords": "sonic font, sonic the hedgehog font, sonic font generator, sonic text generator, free sonic font, sonic text maker, nise sega sonic font, sega sonic font, sonic style font, sonic game font, sonic text creator, sonic font download, custom sonic text, sonic graphics, sonic logo font, sega font generator, how to make sonic text, sonic font online, sonic text style, sonic fan art font, sonic the hedgehog logo font, sega game font, blue hedgehog font, sonic memes font, game character font, sega genesis font, sonic adventure font, sonic colors font, sonic mania font"
+  },
+  "hero": {
+    "title": "Sonic Font Generator",
+    "subtitle": "Create Text Graphics in Sonic Style",
+    "description": "Free Sonic font generator with Nise Sega Sonic font. Create Sonic-style text graphics instantly for fan art, memes, logos & social media. No sign-up. 100% free.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Sonic Font",
+    "description1": "Sonic the Hedgehog is a video game franchise created by Sega, featuring the iconic blue hedgehog character. The series has been a major part of gaming culture since its debut in 1991. The Nise Sega Sonic font is inspired by the typography used in Sonic games and promotional materials, capturing the energetic and fast-paced aesthetic of the Sonic universe.",
+    "description2": "You can use our text generator below to quickly generate logos or images in the Sonic style. After creating your design, you can right-click on the image to save it or click on the EMBED button to get links to embed images on the web."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Sonic-style text graphics",
+    "example1": {
+      "title": "Sonic Style",
+      "description": "Create text graphics with Nise Sega Sonic font",
+      "badge": "Classic Style"
+    },
+    "example2": {
+      "title": "SEGA Style",
+      "description": "Create text graphics with Nise Sega Sonic font",
+      "badge": "Gaming Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Sonic Font Generator?",
+    "subtitle": "Create authentic Sonic-style text graphics with Nise Sega Sonic font",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Authentic Sonic Font",
+      "description": "Use the Nise Sega Sonic font, matching the typography used in Sonic games and promotional materials for authentic gaming aesthetics"
+    },
+    "effects": {
+      "title": "Dynamic Effects",
+      "description": "Apply gradients, shadows, and outlines to create eye-catching Sonic-style text graphics with bold visual impact"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Sonic-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Sonic text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Sonic-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Sonic-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select the Nise Sega Sonic font for authentic Sonic gaming style."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors. Classic Sonic blue (#0066FF) works great!"
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Sonic-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What is Sonic font and where can I download it?",
+      "answer": "Sonic font refers to fonts inspired by the Sonic the Hedgehog video game franchise. The Nise Sega Sonic font captures the energetic, fast-paced aesthetic of Sonic games. Use our free generator to create Sonic-style text graphics instantly without downloading fonts. For font files, search 'Nise Sega Sonic font download' online, but our tool eliminates installation needs."
+    },
+    "q2": {
+      "question": "How to make Sonic text graphics online?",
+      "answer": "Use our free Sonic font generator: 1) Enter your text (e.g., 'SONIC'), 2) Select Nise Sega Sonic font, 3) Choose colors (Sonic blue #0066FF recommended), 4) Adjust size, 5) Add effects like gradients or shadows, 6) Download as PNG. Create authentic Sonic-style text instantly - perfect for fan art, memes, logos, and social media."
+    },
+    "q3": {
+      "question": "Is Sonic font free to use for commercial projects?",
+      "answer": "Font licensing varies. Always check the specific license for commercial use. Our generator is 100% free - create unlimited Sonic-style text graphics without cost, watermarks, or sign-up. For commercial font file usage, refer to the original font license and Sega's trademark guidelines. Generated images can be used per our terms."
+    },
+    "q4": {
+      "question": "What is Nise Sega Sonic font?",
+      "answer": "Nise Sega Sonic is a font inspired by typography from Sonic the Hedgehog games and promotional materials. It captures the energetic, fast-paced aesthetic of the Sonic universe and is popular for creating Sonic-themed graphics, logos, fan art, memes, and gaming content. Our generator uses this authentic font style."
+    },
+    "q5": {
+      "question": "Can I use Sonic font for fan art and memes?",
+      "answer": "Yes! Our Sonic font generator is perfect for fan art, memes, and social media content. Enter your text, select Nise Sega Sonic font, customize colors and effects, then download as PNG. Use for fan art, gaming communities, social media posts, or personal projects. No sign-up required, 100% free."
+    },
+    "q6": {
+      "question": "What colors work best for Sonic text graphics?",
+      "answer": "Classic Sonic blue (#0066FF) is the most iconic color. Gold (#FFD700) works well for premium looks. Red (#FF0000) adds emphasis. Our generator supports custom colors and gradients. Experiment with Sonic blue, gold, red, white, or black to match your design aesthetic and create eye-catching graphics."
+    },
+    "q7": {
+      "question": "How to create Sonic logo text?",
+      "answer": "Create Sonic logo-style text with our generator: Enter your text, select Nise Sega Sonic font, choose Sonic blue (#0066FF) or gold (#FFD700), adjust size for impact, add shadow or gradient effects for depth, then download as PNG. Perfect for logos, banners, and branding materials with authentic Sonic aesthetics."
+    },
+    "q8": {
+      "question": "Is there a free Sonic font generator online?",
+      "answer": "Yes! Our Sonic font generator is completely free and requires no sign-up. Create unlimited Sonic-style text graphics with Nise Sega Sonic font. Customize colors, sizes, and effects. Download as PNG instantly. No watermarks, no limits. Perfect for fan art, memes, social media, and gaming content."
+    },
+    "q9": {
+      "question": "What is Sonic the Hedgehog and why is the font popular?",
+      "answer": "Sonic the Hedgehog is a video game franchise by Sega featuring the iconic blue hedgehog, debuting in 1991. Sonic is one of the world's most recognizable gaming characters. The font is popular because it captures the series' fast-paced, energetic aesthetic, making it ideal for fan art, memes, and gaming-related designs."
+    },
+    "q10": {
+      "question": "Can I download Sonic font for Photoshop or other design tools?",
+      "answer": "You can search for 'Nise Sega Sonic font download' to find font files for design tools. However, our free generator creates Sonic-style text graphics instantly without font installation. Simply generate your text, download as PNG, and use in any design tool. No font files needed - perfect for quick projects."
+    }
+  }
+}
+

@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Graffiti Font Generator - Free Online Graffiti Text Maker | Create Street Art Fonts",
+    "description": "Create authentic graffiti-style text graphics for free! Use our graffiti font generator with Cancontrol, Adrenaline Zero, Adrip, and Gretoon fonts. Generate custom graffiti text, download as PNG, and use for social media, designs, and street art projects. No sign-up required.",
+    "keywords": "graffiti font, graffiti generator, graffiti text generator, free graffiti font, graffiti text maker, street art font, graffiti alphabet, graffiti letters, graffiti style text, online graffiti generator, graffiti font download, custom graffiti text, graffiti graphics, urban font generator"
+  },
+  "hero": {
+    "title": "Graffiti Font Generator",
+    "subtitle": "Create Text Graphics in Graffiti Style",
+    "description": "Use the text generator below to convert your text into graphics online with graffiti fonts, you can then save the image or click on the EMBED button to get links to embed the image on the web.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Graffiti Font",
+    "description1": "Graffiti is usually appeared as graphics or lettering scratched, scrawled, painted or marked in any manner on property. Graffiti has existed since very ancient times in Ancient Greece and the Roman Empire. In ancient Rome, people scratched messages on walls to communicate. In modern times, however, graffiti is considered illegal in a lot of countries. But Brazil and Sao Paulo, one of the largest cities in Brazil, is considered to be the current center of inspiration for graffiti artists.",
+    "description2": "Graffiti can have different styles such as tagging (the simplest type), throw-up (usually having two or three colors in bubble letters), stenciling (quick way to produce complicated designs), and wildstyle (more complicated and artistic). Depending on your preferences, there are many fonts that can be used for graffiti purposes such as bubble fonts, stencil fonts, and outline fonts. Graffiti fonts can be a good way to study graffiti letters or graffiti alphabet, but you really should learn to express in your style. Use our graffiti text generator below to create your own graffiti-style text graphics."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of graffiti-style text graphics",
+    "example1": {
+      "title": "Cancontrol Style",
+      "description": "Create text graphics with Cancontrol font",
+      "badge": "Bold Style"
+    },
+    "example2": {
+      "title": "Street Art Style",
+      "description": "Create text graphics with graffiti font styles",
+      "badge": "Urban Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Graffiti Font Generator?",
+    "subtitle": "Create bold, expressive text graphics with graffiti fonts",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Multiple Graffiti Fonts",
+      "description": "Choose from Cancontrol, Adrenaline Zero, Adrip, and Gretoon fonts, each offering unique street art aesthetics"
+    },
+    "effects": {
+      "title": "Dynamic Effects",
+      "description": "Apply gradients, shadows, and outlines to create eye-catching graffiti-style text graphics with bold visual impact"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your graffiti-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your graffiti text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your graffiti text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited graffiti-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your graffiti-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a graffiti-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select from Cancontrol, Adrenaline Zero, Adrip, or Gretoon fonts for different graffiti styles."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your graffiti-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What are graffiti fonts?",
+      "answer": "Graffiti fonts are typefaces inspired by street art and urban culture. They feature bold, expressive letterforms with dynamic strokes and artistic flair, perfect for creating eye-catching designs that demand attention."
+    },
+    "q2": {
+      "question": "Can I use graffiti fonts for commercial projects?",
+      "answer": "The commercial use of fonts depends on their specific licensing terms. Always check the license for each font you use. Some graffiti fonts may be free for personal use but require licensing for commercial projects."
+    },
+    "q3": {
+      "question": "What fonts are available in this generator?",
+      "answer": "This generator includes Cancontrol, Adrenaline Zero, Adrip, and Gretoon fonts. Each font offers a unique graffiti style, from bold and aggressive to artistic and expressive."
+    },
+    "q4": {
+      "question": "How can I make my graffiti text stand out?",
+      "answer": "To make your graffiti text stand out, use larger font sizes, bold colors, and effects like gradients, shadows, or outlines. Experiment with different color combinations and effects to create the most impactful design."
+    },
+    "q5": {
+      "question": "Can I download the fonts separately?",
+      "answer": "This generator creates text graphics (images) rather than providing downloadable font files. The fonts are loaded dynamically to render your text graphics, but the generated images can be downloaded and used anywhere."
+    },
+    "q6": {
+      "question": "What colors work best with graffiti fonts?",
+      "answer": "Graffiti fonts work well with bold, high-contrast colors. Popular choices include bright oranges, yellows, blues, and high-contrast combinations. The generator supports any color you prefer, allowing you to create custom color schemes that match your design aesthetic."
+    }
+  }
+}
+

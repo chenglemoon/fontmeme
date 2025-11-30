@@ -1,0 +1,177 @@
+{
+  "LanguageDetection": {
+    "title": "Language Suggestion",
+    "description": "We noticed your browser language differs from the current site language. You can switch languages anytime 👉",
+    "countdown": "Closing in {countdown} seconds"
+  },
+  "Header": {
+    "title": "Font Generator",
+    "links": [
+      {
+        "href": "/",
+        "name": "Font Meme"
+      }
+    ]
+  },
+  "Footer": {
+    "title": "Font Generator",
+    "tagLine": "Create beautiful fonts online for free!",
+    "Copyright": "Copyright © {year} {name} All rights reserved.",
+    "PrivacyPolicy": "Privacy Policy",
+    "TermsOfService": "Terms of Service",
+    "Links": {
+      "groups": [
+        {
+          "title": "Products",
+          "links": [
+            {
+              "href": "/",
+              "name": "Font Meme"
+            },
+            {
+              "href": "/font-generator",
+              "name": "Font Generator"
+            },
+            {
+              "href": "/carly-rae-jepsen-font",
+              "name": "Carly Rae Jepsen Font"
+            },
+            {
+              "href": "/calligraphy-generator",
+              "name": "Calligraphy Generator"
+            },
+            {
+              "href": "/pokemon-font",
+              "name": "Pokemon Font"
+            },
+            {
+              "href": "/minecraft-font",
+              "name": "Minecraft Font"
+            },
+            {
+              "href": "/the-life-of-a-showgirl-font",
+              "name": "The Life of a Showgirl Font"
+            },
+            {
+              "href": "/disney-font",
+              "name": "Disney Font"
+            },
+            {
+              "href": "/brat-font",
+              "name": "Brat Font"
+            },
+            {
+              "href": "/graffiti-generator",
+              "name": "Graffiti Generator"
+            },
+            {
+              "href": "/hindi-font-generator",
+              "name": "Hindi Font Generator"
+            },
+            {
+              "href": "/tamil-font-generator",
+              "name": "Tamil Font Generator"
+            },
+            {
+              "href": "/malayalam-font-generator",
+              "name": "Malayalam Font Generator"
+            },
+            {
+              "href": "/undertale-font",
+              "name": "Undertale Font"
+            },
+            {
+              "href": "/coca-cola-font",
+              "name": "Coca-Cola Font"
+            },
+            {
+              "href": "/demon-slayer-font",
+              "name": "Demon Slayer Font"
+            },
+            {
+              "href": "/gta-font",
+              "name": "GTA Font"
+            },
+            {
+              "href": "/squid-game-font",
+              "name": "Squid Game Font"
+            },
+            {
+              "href": "/montserrat-font",
+              "name": "Montserrat Font"
+            },
+            {
+              "href": "/sonic-font",
+              "name": "Sonic Font"
+            },
+            {
+              "href": "/plus-jakarta-sans",
+              "name": "Plus Jakarta Sans"
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "links": [
+            {
+              "href": "mailto:hi@fontmeme.fun",
+              "name": "Contact Us"
+            }
+          ]
+        },
+        {
+          "title": "Languages",
+          "links": [
+            {
+              "href": "/",
+              "name": "English",
+              "useA": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Home": {
+    "title": "Font Meme - Free Font Generator Online",
+    "tagLine": "Create Beautiful Text Styles & Fancy Fonts",
+    "description": "Transform your text into stunning images or copy-paste fancy Unicode styles. Free online font generator with 180+ text styles and 19+ text-to-image fonts. No signup required - start creating instantly!",
+    "keywords": "font generator, text to image, copy paste fonts, fancy text, Unicode fonts, font styles, font meme",
+    "pageData": {
+      "tagLine": "Create Beautiful Text Styles & Fancy Fonts",
+      "description": "Transform your text into stunning images or copy-paste fancy Unicode styles. Free online font generator with 180+ text styles and 19+ text-to-image fonts. No signup required - start creating instantly!"
+    }
+  },
+  "Blogs": {
+    "title": "Font Meme Blog",
+    "description": "Discover the latest features, tips, and updates about font generators and text styling - your ultimate font creation resource.",
+    "emptyState": {
+      "title": "No blog posts",
+      "description": "We are creating exciting content about font generation and text styling tips, please stay tuned!"
+    },
+    "loadMorePostsFailed": "Failed to load more posts",
+    "loadMorePosts": "Loading more posts...",
+    "filterPostsFailed": "Failed to load posts",
+    "noPostsFoundForThisTag": "No articles found for this category",
+    "reachedTheEnd": "You've reached the end of all posts",
+    "BlogDetail": {
+      "featured": "Featured Post",
+      "accessRestricted": "Access Restricted",
+      "unauthorized": "This article is only available to logged-in users",
+      "premium": "Premium Content",
+      "premiumContent": "This article is exclusive to subscribers",
+      "signIn": "Sign In",
+      "upgrade": "Upgrade",
+      "backToBlogs": "Back to Blog List",
+      "notFound": "Article Not Found"
+    }
+  },
+  "TermsOfService": {
+    "title": "Terms of Service",
+    "description": "Terms of Service"
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy"
+  }
+}

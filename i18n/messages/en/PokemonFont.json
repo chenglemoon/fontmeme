@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Pokemon Font Generator - Create Text Graphics in Pokemon Style",
+    "description": "Create text graphics in the style of Pokemon logo using Pokemon Solid and Pokemon Hollow fonts. Generate custom Pokemon-style text graphics online.",
+    "keywords": "pokemon font, pokemon generator, pokemon solid, pokemon hollow, text generator, font generator, pokemon text graphics"
+  },
+  "hero": {
+    "title": "Pokemon Font Generator",
+    "subtitle": "Create Text Graphics in Pokemon Style",
+    "description": "Try our text generator and create cool graphics for Pokemon Font, then you can save the font image to your PC, Mac, Linux, iOS and Android device.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Pokémon Font",
+    "description1": "is a series of video games first released in 1996 in Japan. The name Pokémon originates from its Japanese brand name Poketto Monsutā ポケットモンスター, meaning Pocket Monsters. Due to the extreme popularity of the game, it has been merchandised into anime, manga, trading cards, toys, books etc.",
+    "description2": "The Pokémon logo was probably custom designed. There is a fan-made font named Pokemon that resembles the logo lettering. The font is available in two styles, Pokemon Solid and Pokemon Hollow. They are free to use and you can download them for free."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Pokemon-style text graphics",
+    "example1": {
+      "title": "Pokemon Solid Style",
+      "description": "Create text graphics with Pokemon Solid font",
+      "badge": "Solid Style"
+    },
+    "example2": {
+      "title": "Pokemon Hollow Style",
+      "description": "Create text graphics with Pokemon Hollow font",
+      "badge": "Hollow Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Pokemon Font Generator?",
+    "subtitle": "Create authentic Pokemon-style text graphics with two iconic font styles",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Two Font Styles",
+      "description": "Choose between Pokemon Solid (filled) and Pokemon Hollow (outline) to match the iconic Pokemon logo style"
+    },
+    "effects": {
+      "title": "Pokemon-Style Effects",
+      "description": "Apply gradients, shadows, and outlines to create text graphics that look like the official Pokemon branding"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Pokemon-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Pokemon text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your Pokemon text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Pokemon-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Pokemon-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a Pokemon-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select from Pokemon Solid (filled style) or Pokemon Hollow (outline style)."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors. Pokemon yellow (#ffcc03) is recommended."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Pokemon-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What is the difference between Pokemon Solid and Pokemon Hollow fonts?",
+      "answer": "Pokemon Solid is a filled style font that creates solid, filled letters similar to the Pokemon logo. Pokemon Hollow is an outline style font that creates outlined letters. Both fonts are fan-made and resemble the official Pokemon logo lettering."
+    },
+    "q2": {
+      "question": "What colors work best with Pokemon fonts?",
+      "answer": "The classic Pokemon yellow (#ffcc03) is the most iconic color for Pokemon-style text. However, you can use any color you prefer. The generator supports gradients, shadows, and outlines to create various visual effects."
+    },
+    "q3": {
+      "question": "Can I use Pokemon fonts for my Pokemon-related projects?",
+      "answer": "Yes, you can use these fonts for personal Pokemon-related projects. However, please be aware that Pokemon is a trademarked property, and you should respect Pokemon's trademark rights. For commercial use, please check the font license terms and Pokemon's trademark guidelines."
+    },
+    "q4": {
+      "question": "What effects can I apply to Pokemon text?",
+      "answer": "You can apply various effects including gradients (horizontal, vertical, radial), shadows (soft and large), outlines (different styles), and many more style effects. The generator offers multiple options to customize your Pokemon-style text graphics."
+    },
+    "q5": {
+      "question": "Can I download the Pokemon fonts for offline use?",
+      "answer": "The fonts used in this generator are fan-made fonts. You can download Pokemon fonts from various font websites. However, this generator creates text graphics (images) rather than providing downloadable font files."
+    },
+    "q6": {
+      "question": "How do I create text that looks like the official Pokemon logo?",
+      "answer": "To create text similar to the official Pokemon logo, use the Pokemon Solid font with Pokemon yellow color (#ffcc03). You can also try the Style-Pokemon effect if available, or use gradients and shadows to enhance the appearance."
+    }
+  }
+}
+

@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Brat Font Generator - Create Text Graphics in Brat Style",
+    "description": "Create text graphics using Arial Narrow font. Generate custom Brat-style text graphics online.",
+    "keywords": "brat font, arial narrow font, brat generator, brat text, text generator, font generator, brat text graphics"
+  },
+  "hero": {
+    "title": "Brat Font Generator",
+    "subtitle": "Create Text Graphics in Brat Style",
+    "description": "Use the text generator below to convert your text into graphics online with Brat font, you can then save the image or click on the EMBED button to get links to embed the image on the web.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Brat Font",
+    "description1": "Brat is the sixth studio album by English singer Charli XCX, released through Atlantic Records on 7 June 2024. The front album art shows the album title in all lowercase in a blurry sans serif on a green background.",
+    "description2": "The sans serif looks like Arial Narrow Regular, designed in 1982 by Robin Nicholas and Patricia Saunders. The font family is available as system fonts on both Windows and MacOS, and also available for licensing at Myfonts. If you want to recreate the low resolution text effect in the album cover, or the mirrored text art seen on the remix album, you can use the text generator below."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Brat-style text graphics",
+    "example1": {
+      "title": "Arial Narrow Style",
+      "description": "Create text graphics with Arial Narrow font",
+      "badge": "Condensed Style"
+    },
+    "example2": {
+      "title": "Brat Font Style",
+      "description": "Create text graphics with Brat font style",
+      "badge": "Modern Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Brat Font Generator?",
+    "subtitle": "Create modern, condensed text graphics with Arial Narrow font",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Condensed Font Style",
+      "description": "Arial Narrow provides a sleek, condensed appearance perfect for modern designs and space-efficient layouts"
+    },
+    "effects": {
+      "title": "Modern Effects",
+      "description": "Apply gradients, shadows, and outlines to create contemporary text graphics with a bold aesthetic"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Brat-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Brat text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your Brat text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Brat-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Brat-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a Brat-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select Arial Narrow font for a condensed, modern look."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Brat-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What is the font used in brat?",
+      "answer": "The Brat aesthetic typically uses condensed, bold fonts. Arial Narrow is commonly used as it provides a sleek, modern, and space-efficient appearance that matches the Brat style. The condensed nature of Arial Narrow makes it perfect for creating impactful text graphics."
+    },
+    "q2": {
+      "question": "Is brat in Arial?",
+      "answer": "Yes, Brat-style designs often use Arial or Arial Narrow. Arial Narrow is particularly popular for Brat aesthetics because of its condensed, bold appearance that creates a modern and edgy look. This generator uses Arial Narrow to help you create Brat-style text graphics."
+    },
+    "q3": {
+      "question": "What font is closest to the brat font?",
+      "answer": "Arial Narrow is the closest font to the Brat aesthetic. Other similar options include condensed versions of Helvetica, or fonts like Impact and Bebas Neue. However, Arial Narrow remains the most popular choice for creating Brat-style text graphics due to its perfect balance of condensation and readability."
+    },
+    "q4": {
+      "question": "Can I create my own brat font?",
+      "answer": "Yes, you can create your own Brat-style text graphics using this generator. Simply enter your text, select Arial Narrow font, adjust the size, colors, and effects to match your desired Brat aesthetic. The generator allows you to customize all aspects of your text graphics to create unique Brat-style designs."
+    },
+    "q5": {
+      "question": "Are \"free\" fonts really free?",
+      "answer": "Most free fonts are truly free for personal use, but commercial use may require licensing. Arial Narrow is typically included with operating systems and can be used freely. However, always check the specific license terms for any font you use, especially for commercial projects. This generator uses Arial Narrow, which is generally free to use."
+    },
+    "q6": {
+      "question": "What is the i ❤ ny font?",
+      "answer": "The \"I ❤ NY\" logo uses a custom-designed font, but Arial or similar sans-serif fonts are often used to recreate similar styles. Arial Narrow can be used to create text graphics with a similar condensed, bold aesthetic. This generator allows you to create text graphics that can resemble the style of the iconic \"I ❤ NY\" design."
+    }
+  }
+}
+

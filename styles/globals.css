@@ -1,0 +1,401 @@
+/* React Image Crop 自定义样式 */
+.react-crop {
+  position: relative;
+}
+
+.react-crop__crop-selection {
+  border: 2px solid rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.react-crop__drag-handle {
+  background-color: #000 !important;
+  border: 2px solid rgba(255, 255, 255, 0.9) !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+}
+
+.react-crop__drag-handle:hover {
+  background-color: #333 !important;
+  border-color: #fff !important;
+}
+
+.react-crop__drag-handle::after {
+  display: none !important;
+}
+
+.react-crop__drag-handle--n,
+.react-crop__drag-handle--s,
+.react-crop__drag-handle--e,
+.react-crop__drag-handle--w {
+  background-color: #000 !important;
+  border: 2px solid rgba(255, 255, 255, 0.9) !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+}
+
+.react-crop__drag-handle--n:hover,
+.react-crop__drag-handle--s:hover,
+.react-crop__drag-handle--e:hover,
+.react-crop__drag-handle--w:hover {
+  background-color: #333 !important;
+  border-color: #fff !important;
+}
+
+/* 圆形裁剪样式 */
+.react-crop-circle {
+  position: relative;
+}
+
+.react-crop-circle .react-crop__crop-selection {
+  /* 保持方形边界框可见 */
+  border-radius: 0 !important;
+  overflow: visible !important;
+  border: 2px dashed rgba(0, 0, 0, 0.4) !important;
+  background: transparent !important;
+  position: relative !important;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* 圆形边框 - 黑色实线边框 */
+.react-crop-circle .react-crop__crop-selection::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 2px solid #000;
+  pointer-events: none;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+/* 方形边界框内的圆形外遮罩 */
+.react-crop-circle .react-crop__crop-selection::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  pointer-events: none;
+  z-index: 5;
+  /* 使用 mask 创建圆形透明区域 */
+  /* mask 中：白色=显示，黑色=隐藏 */
+  /* 圆形区域=黑色（隐藏遮罩），圆形外=白色（显示遮罩） */
+  mask-image: radial-gradient(circle at center, black 50%, white 50%);
+  -webkit-mask-image: radial-gradient(circle at center, black 50%, white 50%);
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./theme.css";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  /* 隐藏水平滚动条 */
+}
+
+body {
+  overflow-x: hidden;
+  /* 隐藏水平滚动条 */
+}
+
+/* 棋盘格背景用于图片预览 */
+.bg-checkered {
+  background-color: #fff;
+  background-image: 
+    linear-gradient(45deg, #e5e7eb 25%, transparent 25%),
+    linear-gradient(-45deg, #e5e7eb 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #e5e7eb 75%),
+    linear-gradient(-45deg, transparent 75%, #e5e7eb 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.dark .bg-checkered {
+  background-color: #1f2937;
+  background-image: 
+    linear-gradient(45deg, #374151 25%, transparent 25%),
+    linear-gradient(-45deg, #374151 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #374151 75%),
+    linear-gradient(-45deg, transparent 75%, #374151 75%);
+}
+
+/* shot-easy-website styles */
+.polka {
+  background-image: radial-gradient(var(--c-wb, #c2c2c2) 0.7px, var(--c-wg, #fff) 1px);
+  background-size: 14px 14px;
+}
+
+.dark .polka {
+  background-image: radial-gradient(var(--c-wb, #555) 0.7px, var(--c-wg, #222) 1px);
+  background-size: 14px 14px;
+}
+
+.tr {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEXj4+P39/dWpvaqAAAAEElEQVQI12Ng+M+AFeEQBgB+vw/xWs16mgAAAABJRU5ErkJggg==) repeat;
+}
+
+.dark .polka {
+  background-image: radial-gradient(var(--c-wb, #555) 0.7px, var(--c-wg, #222) 1px);
+}
+
+.dark .tr {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEXj4+P39/dWpvaqAAAAEElEQVQI12Ng+M+AFeEQBgB+vw/xWs16mgAAAABJRU5ErkJggg==) repeat;
+}
+
+/* shot-easy-website styles for radio selection */
+.ant-radio-wrapper-checked .h-8 {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 2px rgba(0, 0, 255, 0.415);
+}
+
+/* shot-easy-website styles for macbook and iphone frames */
+.macbook {
+  position: relative;
+  padding: 1.7% 10.35% 7.2%;
+}
+
+.iphone {
+  --aspect-ratio: 1339/2716;
+  --shadow-inset: 5.6% 6.0%;
+  --shadow-radius: 8.1em;
+  --drop-padding: 7.9% 8.4% 8% 8.4%;
+  --drop-radius: 5em;
+  --mockup-shadow: 0,0,0, 0.70;
+  --x: 2em;
+  --y: 2em;
+  --b: 2em;
+  --s: 1;
+  position: relative;
+  padding: var(--drop-padding);
+}
+
+.iphone .frame {
+  border-radius: var(--drop-radius);
+}
+
+.iphone .sd {
+  top: 7.9%;
+  left: 8.4%;
+  right: 8.4%;
+  bottom: 2%;
+  border-radius: var(--drop-radius);
+}
+
+.iphone .sd .layer {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: rgba(var(--mockup-shadow));
+  pointer-events: none;
+  --ratio: 0;
+  transform: translate(calc(var(--x) * var(--ratio)),calc(var(--y) * var(--ratio))) scale(calc(var(--s)));
+  filter: blur(calc(var(--b) * var(--ratio)));
+}
+
+.iphone .sd .layer.layer-1 {
+  --ratio: 1;
+}
+
+.iphone .sd .layer.layer-2 {
+  --ratio: 1.5;
+}
+
+.iphone .sd .layer.layer-3 {
+  --ratio: 2.5;
+}
+
+.iphone .sd .layer.layer-4 {
+  --ratio: 4;
+}
+
+.iphone .sd .layer.layer-5 {
+  --ratio: 6;
+}
+
+@layer base {
+  :root {
+    /* 默认深色主题 - fast3d.io 风格 */
+    --default: 0 0% 98%;
+    --default-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 5%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    --brand-success: #10b981;
+    --brand-success-hover: #059669;
+  }
+
+  .light {
+    /* 浅色主题（可选） */
+    --default: 240 5.9% 10%;
+    --default-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+
+    --brand-success: #10b981;
+    --brand-success-hover: #059669;
+  }
+
+  .dark {
+    /* 深色主题（默认） */
+    --default: 0 0% 98%;
+    --default-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 5%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+
+    --brand-success: #10b981;
+    --brand-success-hover: #059669;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* 隐藏所有滚动条但保持滚动功能 */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox 隐藏滚动条 */
+  * {
+    scrollbar-width: none;
+  }
+
+  /* 确保页面可以正常滚动 */
+  html {
+    height: auto;
+    min-height: 100%;
+  }
+
+  body {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "title": "Calligraphy Font Generator - Free Online Calligraphy Text Maker | Elegant Handwriting Fonts",
+    "description": "Free calligraphy font generator with elegant handwriting fonts. Create beautiful calligraphy text graphics instantly for wedding invitations, logos, social media & designs. Generate custom text, download PNG images. No sign-up required. 100% free online calligraphy text maker.",
+    "keywords": "calligraphy font, calligraphy font generator, calligraphy text generator, free calligraphy font, handwriting font generator, elegant handwriting fonts, calligraphy text maker, calligraphy generator online, wedding invitation font, script font generator, fancy text generator, calligraphy logo maker, beautiful handwriting font, cursive font generator, calligraphy style text, calligraphy graphics, calligraphy font download, custom calligraphy text, elegant text graphics, calligraphy design tool"
+  },
+  "hero": {
+    "title": "Calligraphy Font Generator",
+    "subtitle": "Create Elegant Handwriting Text Graphics",
+    "description": "Generate beautiful calligraphy text graphics with elegant handwriting fonts. Perfect for wedding invitations, logos, social media & designs. Free, instant, no download needed.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Calligraphy Fonts",
+    "description1": "The word \"Calligraphy\" is derived from Greek, meaning \"beautiful writing\". Calligraphy or the art of fancy writing has thousands of years in its history and development. They are of aesthetics, refinement, creativity and pure beauty. For different scripts, for example, Chinese or Arabic, they have developed their own way of calligraphy. However, either western calligraphy or Chinese or Arabic calligraphy, they have strict rules and shapes with a geometrical order of lining on the page, each character with a precise stroke order.",
+    "description2": "Calligraphy fonts resemble elegant handwriting. They often look as if they were drawn with flat-tipped pens or brushes. Calligraphy fonts are widely used in wedding, event invitations, original logo design, religious art, films, TV, etc. Burgues Script created by Alejandro Paul is a typical font family of calligraphy style. According to the designer, the font is an ode to the late 19th century American calligrapher Louis Madarasz, known as \"the most skillful penman the world has ever known.\"",
+    "description3": "To download free calligraphy fonts for personal or commercial use, you can take a look at our collection of calligraphy fonts. If you just want to create text graphics and logos online using calligraphy fonts, you can check out our text generator below."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of calligraphy text graphics",
+    "example1": {
+      "title": "Elegant Calligraphy",
+      "description": "Create beautiful calligraphy text with elegant handwriting fonts",
+      "badge": "Calligraphy Style"
+    },
+    "example2": {
+      "title": "Script Font Style",
+      "description": "Create elegant script text graphics with various effects",
+      "badge": "Script Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Calligraphy Font Generator?",
+    "subtitle": "Create elegant calligraphy text graphics with beautiful handwriting fonts",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Elegant Calligraphy Fonts",
+      "description": "Choose from multiple beautiful calligraphy fonts including Arizonia, Billion Stars, Ken's Calligraphic, and more to create elegant handwriting-style text"
+    },
+    "effects": {
+      "title": "Artistic Effects",
+      "description": "Apply gradients, shadows, and outlines to enhance your calligraphy text and make it look like hand-drawn artwork"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your calligraphy text graphics as PNG images perfect for invitations, logos, and artistic projects"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your elegant calligraphy text update instantly as you adjust fonts, colors, and effects - perfect for fine-tuning your design"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your calligraphy text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited elegant calligraphy text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your calligraphy text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a calligraphy graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select from multiple elegant calligraphy fonts including Arizonia, Billion Stars, AdineKirnberg Script, and more."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your calligraphy text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What is calligraphy font and how does it differ from regular fonts?",
+      "answer": "Calligraphy is the art of beautiful writing, derived from Greek meaning 'beautiful writing'. Calligraphy fonts resemble elegant handwriting and often look as if they were drawn with flat-tipped pens or brushes. Unlike regular fonts, they have strict rules and shapes with precise stroke orders, making them perfect for elegant designs, wedding invitations, logos, and formal documents."
+    },
+    "q2": {
+      "question": "How to download calligraphy font for free?",
+      "answer": "You can use our free calligraphy font generator to create text graphics instantly without downloading any fonts. Simply enter your text, select from multiple elegant calligraphy fonts (Arizonia, Billion Stars, Ken's Calligraphic, Chancery Cursive, and more), customize colors and effects, then download as PNG. For actual font files, you can search for 'calligraphy font download' on font websites, but our generator eliminates the need for font installation."
+    },
+    "q3": {
+      "question": "Is calligraphy font free to use?",
+      "answer": "Many calligraphy fonts are available for free personal use, but commercial use may require licensing. Our generator is 100% free - create unlimited calligraphy-style text graphics without cost, watermarks, or sign-up. Always verify font licenses for commercial projects. The generated images can be used in various contexts."
+    },
+    "q4": {
+      "question": "What can I use calligraphy fonts for?",
+      "answer": "Calligraphy fonts are widely used for wedding invitations, event invitations, original logo design, religious art, films, TV shows, social media graphics, certificates, formal announcements, and elegant branding. They add an elegant, refined touch to any design project, making them perfect for special occasions and professional designs."
+    },
+    "q5": {
+      "question": "Which calligraphy font should I choose for my project?",
+      "answer": "We offer multiple elegant calligraphy fonts. Arizonia Regular is great for elegant scripts and wedding designs, Billion Stars has a decorative style perfect for special events, Ken's Calligraphic offers classic calligraphy for formal documents, and Chancery Cursive provides a traditional look. Try different fonts in our generator to see which matches your project best - all with real-time preview."
+    },
+    "q6": {
+      "question": "Can I use calligraphy fonts for wedding invitations?",
+      "answer": "Yes! Calligraphy fonts are perfect for wedding invitations, event invitations, save-the-dates, and formal announcements. They add elegance and sophistication to your designs. Our generator lets you create custom wedding invitation text, choose colors that match your theme, and download as high-quality PNG images ready for printing or digital use."
+    },
+    "q7": {
+      "question": "What effects work best with calligraphy fonts?",
+      "answer": "Gradients work beautifully with calligraphy fonts to create depth and elegance. Soft shadows can add sophistication, and subtle outlines can enhance readability while maintaining the elegant appearance. Our generator offers multiple effects (Gradient-H, Gradient-V, Shadow-S, Shadow-L, Outline-A, Outline-B) - experiment to find the perfect look for your elegant text."
+    },
+    "q8": {
+      "question": "Are calligraphy fonts suitable for logo design?",
+      "answer": "Absolutely! Calligraphy fonts are excellent for logo design, especially for brands that want to convey elegance, sophistication, luxury, or a traditional feel. Many famous logos use calligraphy-style fonts to create a distinctive, artistic appearance. Our generator helps you create custom logo text with various calligraphy fonts, colors, and effects."
+    },
+    "q9": {
+      "question": "How to make text look like calligraphy?",
+      "answer": "Use our calligraphy font generator: 1) Enter your text, 2) Select a calligraphy font (Arizonia, Billion Stars, etc.), 3) Choose elegant colors, 4) Adjust font size (5-300px), 5) Add effects like gradients or shadows, 6) Download as PNG. The generator creates authentic calligraphy-style text instantly without needing to learn calligraphy techniques."
+    },
+    "q10": {
+      "question": "Can I use calligraphy fonts commercially?",
+      "answer": "Commercial use of calligraphy fonts depends on their specific licensing terms. Many fonts are free for personal use but require licensing for commercial projects. Our generator creates images that you can use, but for commercial font usage, always check the original font license. The generated PNG images can typically be used in commercial projects, but verify each font's terms."
+    }
+  }
+}
+

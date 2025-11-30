@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Disney Font Generator - Create Text Graphics in Disney Style",
+    "description": "Create text graphics in the classic Disney style using Waltograph fonts. Generate custom Disney-style text graphics online.",
+    "keywords": "disney font, waltograph font, disney generator, disney text, mickey mouse font, disney style font, text generator, font generator, disney text graphics"
+  },
+  "hero": {
+    "title": "Disney Font Generator",
+    "subtitle": "Create Text Graphics in Disney Style",
+    "description": "Use the text generator below to convert your text into graphics online with Disney fonts, you can then save the image or click on the EMBED button to get links to embed the image on the web.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Disney Font",
+    "description1": "Waltograph is a font family inspired by the classic Walt Disney logo. It captures the magical, whimsical style of Disney's iconic lettering. The font is available in two styles: Waltograph 42 and Waltograph UI, both designed to evoke the nostalgic charm of Disney's golden age.",
+    "description2": "These fonts are perfect for creating Disney-themed projects, invitations, party decorations, and fan art. While Waltograph fonts are inspired by Disney's style, they are free alternatives that allow you to create text graphics with that classic Disney magic."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Disney-style text graphics",
+    "example1": {
+      "title": "Waltograph 42 Style",
+      "description": "Create text graphics with Waltograph 42 font",
+      "badge": "Classic Style"
+    },
+    "example2": {
+      "title": "Waltograph UI Style",
+      "description": "Create text graphics with Waltograph UI font",
+      "badge": "UI Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Disney Font Generator?",
+    "subtitle": "Create authentic Disney-style text graphics with two iconic font styles",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Two Font Styles",
+      "description": "Choose between Waltograph 42 (classic) and Waltograph UI (modern) to match your Disney-themed projects"
+    },
+    "effects": {
+      "title": "Disney-Style Effects",
+      "description": "Apply gradients, shadows, and outlines to create text graphics that capture the magic of Disney"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Disney-style text graphics as PNG images with transparent or custom backgrounds for use anywhere"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Disney text graphics update instantly as you adjust colors, size, and effects - no waiting required"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your Disney text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Disney-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Disney-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a Disney-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose A Font",
+      "description": "Select from Waltograph 42 (classic) or Waltograph UI (modern)."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Disney-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "How do I download and install Waltograph font?",
+      "answer": "You can download Waltograph fonts from official font websites or trusted font resources. After downloading, extract the font files (usually .ttf or .otf format) and install them on your computer. On Windows, right-click the font file and select 'Install'; on macOS, double-click the font file and click 'Install Font'. This generator creates text graphics (images) rather than providing downloadable font files."
+    },
+    "q2": {
+      "question": "Is Waltograph font free to use?",
+      "answer": "Waltograph fonts are typically free for personal use, but please check the font's license agreement. Some uses, such as commercial projects, may require special licensing. Always review the specific license terms for your intended use case."
+    },
+    "q3": {
+      "question": "Can I use Disney fonts for commercial projects?",
+      "answer": "Waltograph fonts are free alternatives inspired by Disney's style. However, Disney characters, logos, and branding are trademarked properties. For commercial projects, ensure you respect Disney's trademark rights and use the fonts appropriately. Always check licensing terms and trademark guidelines for your specific use case."
+    },
+    "q4": {
+      "question": "What should I be aware of when using Disney fonts in my designs?",
+      "answer": "While using Disney fonts can add Disney style to your designs, please be aware of copyright and trademark issues. Ensure your use complies with relevant laws and regulations, especially in commercial projects. The fonts themselves may be free, but Disney's intellectual property is protected."
+    },
+    "q5": {
+      "question": "Are there other Disney-style fonts besides Waltograph?",
+      "answer": "Yes, besides Waltograph, there are other Disney-inspired fonts created by various font designers. You can search for 'Disney Font' or related keywords on major font resource websites to find more options. Waltograph 42 and Waltograph UI are among the most popular choices."
+    },
+    "q6": {
+      "question": "How can I create text that looks like the official Disney logo?",
+      "answer": "To create text similar to the official Disney logo, use Waltograph 42 font with bold styling. Add gradients (especially blue or red gradients), subtle shadows, and white outlines. The classic Disney logo typically uses blue or red colors. You can use this generator to experiment with different colors and effects to achieve the desired look."
+    }
+  }
+}
+

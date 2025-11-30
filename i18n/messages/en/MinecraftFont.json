@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Minecraft Font Generator - Create Text Graphics in Minecraft Style",
+    "description": "Create text graphics in the style of Minecraft using the official Minecraft font. Generate custom Minecraft-style text graphics online.",
+    "keywords": "minecraft font, minecraft generator, minecraft text generator, font generator, minecraft text graphics, blocky font"
+  },
+  "hero": {
+    "title": "Minecraft Font Generator",
+    "subtitle": "Create Text Graphics in Minecraft Style",
+    "description": "Try our text generator and create cool graphics for Minecraft Font, then you can save the font image to your PC, Mac, Linux, iOS and Android device.",
+    "button": "Start Creating"
+  },
+  "about": {
+    "title": "About Minecraft Font",
+    "description1": "Minecraft is a sandbox video game developed by Mojang Studios. The game was first released in 2009 and has become one of the best-selling video games of all time. Minecraft features a distinctive blocky, pixelated art style that has become iconic in gaming culture.",
+    "description2": "The Minecraft font is a custom pixelated font that matches the game's blocky aesthetic. It features square, pixelated characters that perfectly complement the game's visual style. This font is widely used by the Minecraft community for creating fan art, server names, and creative projects."
+  },
+  "generator": {
+    "title": "Text Generator",
+    "description": "Enter your text below and customize it with different fonts, sizes, colors, and effects.",
+    "textLabel": "Enter Your Text",
+    "textPlaceholder": "Enter your text here...",
+    "fontLabel": "Select A Font",
+    "sizeLabel": "Font Size",
+    "effectLabel": "Select An Effect",
+    "colorLabel": "Select A Color",
+    "secondColorLabel": "Select Second Color",
+    "backgroundColorLabel": "Background Color",
+    "customSizeLabel": "Custom Size",
+    "widthLabel": "Width",
+    "heightLabel": "Height",
+    "generate": "GENERATE",
+    "generating": "GENERATING...",
+    "download": "Download",
+    "copy": "Copy Image",
+    "copied": "Copied!",
+    "preview": "Preview"
+  },
+  "examples": {
+    "badge": "Examples",
+    "title": "See What You Can Create",
+    "subtitle": "Explore examples of Minecraft-style text graphics",
+    "example1": {
+      "title": "Minecraft Style",
+      "description": "Create text graphics with the iconic Minecraft font",
+      "badge": "Blocky Style"
+    },
+    "example2": {
+      "title": "Minecraft Creative",
+      "description": "Create text graphics with Minecraft font and effects",
+      "badge": "Creative Style"
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Use Our Minecraft Font Generator?",
+    "subtitle": "Create authentic Minecraft-style text graphics with the iconic blocky font",
+    "coreFeature": "Core Feature",
+    "customizable": {
+      "title": "Official Minecraft Font",
+      "description": "Use the authentic Minecraft font that matches the game's iconic blocky, pixelated aesthetic"
+    },
+    "effects": {
+      "title": "Minecraft-Style Effects",
+      "description": "Apply gradients, shadows, and outlines to create text graphics that look like they belong in the Minecraft world"
+    },
+    "download": {
+      "title": "High-Quality Export",
+      "description": "Download your Minecraft-style text graphics as PNG images perfect for server names, fan art, and creative projects"
+    },
+    "instant": {
+      "title": "Real-Time Preview",
+      "description": "See your Minecraft text graphics update instantly as you adjust colors, size, and effects - perfect for fine-tuning your blocky design"
+    },
+    "private": {
+      "title": "100% Private & Secure",
+      "description": "All text processing happens locally in your browser - your Minecraft text never leaves your device"
+    },
+    "free": {
+      "title": "Completely Free Forever",
+      "description": "No sign-up, no watermarks, no limits - create unlimited Minecraft-style text graphics for free"
+    }
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "subtitle": "Create your Minecraft-style text graphics in just a few simple steps",
+    "startButton": "Start Creating",
+    "step1": {
+      "title": "Enter Your Text",
+      "description": "Type the text you want to convert into a Minecraft-style graphic. You can use up to 200 characters."
+    },
+    "step2": {
+      "title": "Choose The Font",
+      "description": "Select the Minecraft font to get that iconic blocky, pixelated look."
+    },
+    "step3": {
+      "title": "Adjust Size & Color",
+      "description": "Use the slider to set the font size (5-300px) and pick your favorite colors. Minecraft green (#10b981) is recommended."
+    },
+    "step4": {
+      "title": "Add Effects",
+      "description": "Choose from various effects like gradients, shadows, or outlines to enhance your Minecraft text."
+    },
+    "step5": {
+      "title": "Download",
+      "description": "Click the download button to save your Minecraft-style text graphic as a PNG image."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": {
+      "question": "What is the Minecraft font?",
+      "answer": "The Minecraft font is a custom pixelated font that matches the game's distinctive blocky aesthetic. It features square, pixelated characters that perfectly complement Minecraft's visual style."
+    },
+    "q2": {
+      "question": "Can I use Minecraft fonts for my Minecraft-related projects?",
+      "answer": "Yes, you can use the Minecraft font for personal Minecraft-related projects. However, please be aware that Minecraft is a trademarked property, and you should respect Mojang Studios' trademark rights. For commercial use, please check Mojang's trademark guidelines."
+    },
+    "q3": {
+      "question": "What effects work best with Minecraft fonts?",
+      "answer": "Gradients work well with Minecraft fonts to add depth. Shadows can create a 3D blocky effect, and outlines can enhance the pixelated appearance. Experiment with different effects to find the perfect look for your Minecraft text."
+    },
+    "q4": {
+      "question": "Can I use this for Minecraft server names or banners?",
+      "answer": "Yes! Our generator is perfect for creating Minecraft server names, banners, and creative projects. Download your creations as high-quality PNG images that you can use in your Minecraft projects."
+    },
+    "q5": {
+      "question": "What colors work best with Minecraft fonts?",
+      "answer": "Minecraft uses a vibrant color palette. You can use Minecraft green (#10b981), or experiment with other colors that match the game's aesthetic. The generator supports full color customization."
+    },
+    "q6": {
+      "question": "Is this officially affiliated with Minecraft or Mojang?",
+      "answer": "No, this is a fan-made tool that uses a font similar to Minecraft's official font. We are not affiliated with Mojang Studios or Microsoft. Please respect trademark rights for commercial use."
+    }
+  }
+}
+
+

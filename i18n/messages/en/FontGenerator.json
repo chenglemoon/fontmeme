@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "title": "Font Generator - 𝓒𝓸𝓹𝔂 𝖆𝖓𝖉 𝓟𝓪𝓼𝓽𝓮 Fancy Cool Text",
+    "description": "Convert your simple text into fancy fonts with our cool font generator that helps you copy and paste from 180+ beautiful text styles in seconds.",
+    "keywords": "font generator, text generator, font styles, custom fonts, text styles, social media fonts, font maker, text style generator, unique fonts, fancy fonts, decorative fonts, creative text, font creator, text designer, online font generator, free font generator, text style maker, font style generator, custom text styles, beautiful fonts, stylish text, text effects, font effects, typography generator, text design tool"
+  },
+  "hero": {
+    "title": "Font Generator",
+    "badge": "Transform Your Typography",
+    "description": "Make your text fun and stylish with our cool text generator 🌟 featuring a wide variety of font styles ready for easy copy and paste."
+  },
+  "generator": {
+    "title": "Font Generator",
+    "subtitle": "Transform your text with 40 unique font styles",
+    "placeholder": "Type your text here...",
+    "guideButton": "Guide",
+    "randomButton": "Random",
+    "moreButton": "More",
+    "defaultText": "Type your text here..."
+  },
+  "features": {
+    "feature1": {
+      "title": "Easy to Use",
+      "description": "Simple and intuitive interface for quick font generation"
+    },
+    "feature2": {
+      "title": "Customizable",
+      "description": "Adjust every aspect of your font to match your vision"
+    },
+    "feature3": {
+      "title": "Export Options",
+      "description": "Download your fonts in multiple formats for any project"
+    }
+  },
+  "faq": {
+    "title": "Font Generator FAQs",
+    "q1": {
+      "question": "What is a Font Generator and How Does It Work?",
+      "answer": "Font generator is an online tool where you can type in regular text and it turns it into fancy styles for copying and pasting. It works by mixing in various stylish Unicode symbols that look similar to normal letters, giving your text a fun and cool look."
+    },
+    "q2": {
+      "question": "What are copy and paste fonts?",
+      "answer": "Copy and paste fonts are made using aesthetic Unicode characters. Unicode is a Universal standard that gives each character a unique code so it looks the same on all platforms."
+    },
+    "q3": {
+      "question": "Can screen readers read fancy text?",
+      "answer": "No, screen readers won't be able to read these text styles effectively. These symbols might look the same as Normal letters but they can have different underlying meanings. Use these styles only when you are sure that your audience does not include individuals using screen readers."
+    },
+    "q4": {
+      "question": "How to change fonts on Instagram bios and captions?",
+      "answer": "Instagram allows users to change fonts in stories, but unfortunately, there are no built-in options to modify fonts in bios or captions. However, you can easily achieve this by using a third-party tool like the font generator."
+    },
+    "q5": {
+      "question": "Where can I use fancy text fonts?",
+      "answer": "Text fonts can be used anywhere Unicode is supported. This includes a variety of platforms such as popular social media sites, messaging applications, documents, websites, emails, and many others."
+    },
+    "q6": {
+      "question": "How do you get different fonts on Facebook?",
+      "answer": "Facebook does not offer built-in font formatting options. However, you can easily use a fancy font generator to create bold, italic, or underlined text, as well as change your font style completely."
+    },
+    "q7": {
+      "question": "How to style WhatsApp text?",
+      "answer": "You can easily change your WhatsApp text to bold, italic, monospace, or strikethrough by selecting the text and choosing the formatting options from the menu. If you want to explore more styling options, simply enter your message in the font changer and select your desired style."
+    },
+    "q8": {
+      "question": "How to type in different fonts on Twitter for tweets and bios?",
+      "answer": "Although Twitter is a text-focused platform it does not provide formatting options. If you want to change the font in your tweets or bio, you can use this tool as your Twitter text formatter."
+    }
+  },
+  "howToUse": {
+    "title": "Here's how to use the Fancy Text Generator",
+    "subtitle": "Using this font gen tool to input your text and generate stylish copy and paste fonts is very simple. To show you how, follow the quick step-by-step guide for using the font changer:",
+    "step1": {
+      "title": "Insert Text",
+      "description": "Enter or paste your simple text into the top text box and see the cool previews instantly."
+    },
+    "step2": {
+      "title": "Tap the style",
+      "description": "Scroll to find the style that fits your needs and click to copy it to your clipboard."
+    },
+    "step3": {
+      "title": "Paste the converted text",
+      "description": "You are all done! Just go to where you want to apply the style and press paste."
+    },
+    "startButton": "Get Started"
+  },
+  "about": {
+    "title": "About Cool Font Generator",
+    "description1": "Font Generator is an online tool that lets you input simple text and convert it into over 180 fancy text styles. To make your text look fun and stylish it utilizes thousands of cool symbols from Unicode and combines them to create fonts for you. This enables you to write in bold, underlined, cursive, or italic styles on platforms where such formatting is normally not possible. Simply enter your text and select your favorite font to copy and paste.",
+    "description2": "With this fancy font changer in your hand, you can easily stand out on social media. Add aesthetic fonts to your Instagram bio, create attention-grabbing posts on Twitter and Facebook, and impress your friends during WhatsApp chats. The best part is that its use isn't limited to social media. Since Unicode is universally supported, you can apply these styles almost anywhere.",
+    "description3": "This has a variety of stylish fonts organized into over 20 different categories. This makes it super easy for you to find the right text style, ranging from simple to fancy, based on your needs. Prepare to scroll for a while as there is a huge list of styles for you to explore 😉. You can select the perfect style for your social media posts, notes, presentations, documents, chats, and more."
+  }
+}
+
