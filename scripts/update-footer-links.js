@@ -81,3 +81,4 @@ locales.forEach(locale => {
 console.log('All footer links updated!');
 
 
+

@@ -1,3 +1,5 @@
+@import "./theme.css";
+
 /* React Image Crop 自定义样式 */
 .react-crop {
   position: relative;
@@ -104,8 +106,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "./theme.css";
 
 html {
   scroll-behavior: smooth;
