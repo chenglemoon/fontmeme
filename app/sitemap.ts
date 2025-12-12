@@ -4,7 +4,8 @@ import { DEFAULT_LOCALE, LOCALES } from '@/i18n/routing'
 import { getPosts } from '@/lib/getBlogs'
 import { MetadataRoute } from 'next'
 
-const siteUrl = siteConfig.url
+// 确保 siteUrl 没有尾部斜杠
+const siteUrl = siteConfig.url.replace(/\/$/, '')
 
 type ChangeFrequency = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' | undefined
 
@@ -37,12 +38,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ]
 
   const pages = LOCALES.flatMap(locale => {
-    return staticPages.map(page => ({
-      url: `${siteUrl}${locale === DEFAULT_LOCALE ? '' : `/${locale}`}${page}`,
-      lastModified: new Date(),
-      changeFrequency: 'daily' as ChangeFrequency,
-      priority: page === '' ? 1.0 : 0.8,
-    }))
+    return staticPages.map(page => {
+      // 构建 URL，确保格式正确
+      const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
+      const path = page === '' ? '/' : page
+      const fullUrl = `${siteUrl}${localePrefix}${path}`
+      
+      return {
+        url: fullUrl,
+        lastModified: new Date(),
+        changeFrequency: 'daily' as ChangeFrequency,
+        priority: page === '' ? 1.0 : 0.8,
+      }
+    })
   })
 
   const allBlogSitemapEntries: MetadataRoute.Sitemap = [];
@@ -56,8 +64,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         .forEach((post) => {
           const slugPart = post.slug.replace(/^\//, "").replace(/^blogs\//, "");
           if (slugPart) {
+            const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
+            const blogUrl = `${siteUrl}${localePrefix}/blogs/${slugPart}`
             allBlogSitemapEntries.push({
-              url: `${siteUrl}${locale === DEFAULT_LOCALE ? '' : `/${locale}`}/blogs/${slugPart}`,
+              url: blogUrl,
               lastModified: post.metadata?.updatedAt || post.published_at || new Date(),
               changeFrequency: 'daily' as ChangeFrequency,
               priority: 0.7,
@@ -82,8 +92,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         data.posts.forEach((post: PublicPost) => {
           const slugPart = post.slug?.replace(/^\//, "").replace(/^blogs\//, "");
           if (slugPart) {
+            const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
+            const blogUrl = `${siteUrl}${localePrefix}/blogs/${slugPart}`
             allBlogSitemapEntries.push({
-              url: `${siteUrl}${locale === DEFAULT_LOCALE ? '' : `/${locale}`}/blogs/${slugPart}`,
+              url: blogUrl,
               lastModified: post.published_at || new Date(),
               changeFrequency: 'daily' as ChangeFrequency,
               priority: 0.7,
@@ -101,8 +113,45 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     new Map(allBlogSitemapEntries.map((entry) => [entry.url, entry])).values()
   );
 
-  return [
+  // 合并所有条目
+  const allEntries = [
     ...pages,
     ...uniqueBlogPostEntries,
   ]
+
+  // 验证并清理 URL，确保格式正确
+  const validatedEntries = allEntries
+    .filter(entry => {
+      // 验证 URL 格式
+      try {
+        new URL(entry.url)
+        return true
+      } catch {
+        console.error(`Invalid URL in sitemap: ${entry.url}`)
+        return false
+      }
+    })
+    .map(entry => {
+      // 确保 URL 格式正确，移除多余的尾部斜杠（除了根路径）
+      let cleanUrl = entry.url.replace(/\/+$/, '')
+      if (!cleanUrl || cleanUrl === siteUrl) {
+        cleanUrl = `${siteUrl}/`
+      }
+      return {
+        ...entry,
+        url: cleanUrl,
+      }
+    })
+
+  // 确保至少返回一个有效的条目（主页）
+  if (validatedEntries.length === 0) {
+    return [{
+      url: `${siteUrl}/`,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as ChangeFrequency,
+      priority: 1.0,
+    }]
+  }
+
+  return validatedEntries
 }
