@@ -9,6 +9,22 @@ const siteUrl = siteConfig.url.replace(/\/$/, '')
 
 type ChangeFrequency = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' | undefined
 
+// 添加超时辅助函数
+async function withTimeout<T>(
+  promise: Promise<T>,
+  timeoutMs: number,
+  fallback: T
+): Promise<T> {
+  try {
+    const timeoutPromise = new Promise<T>((_, reject) =>
+      setTimeout(() => reject(new Error('Timeout')), timeoutMs)
+    );
+    return await Promise.race([promise, timeoutPromise]);
+  } catch (error) {
+    return fallback;
+  }
+}
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Static pages
   const staticPages = [
@@ -55,10 +71,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const allBlogSitemapEntries: MetadataRoute.Sitemap = [];
 
-  // 添加错误处理，确保即使博客数据加载失败，sitemap 也能正常生成
+  // 添加错误处理和超时，确保即使博客数据加载失败，sitemap 也能正常生成
+  // 设置 5 秒超时，避免 sitemap 生成时间过长
   for (const locale of LOCALES) {
     try {
-      const { posts: localPosts } = await getPosts(locale);
+      const { posts: localPosts } = await withTimeout(
+        getPosts(locale),
+        5000,
+        { posts: [] }
+      );
       localPosts
         .filter((post) => post.slug && post.status !== "draft")
         .forEach((post) => {
@@ -82,11 +103,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const locale of LOCALES) {
     try {
-      const serverResult = await listPublishedPostsAction({
-        pageIndex: 0,
-        locale: locale,
-        pageSize: 1000,
-      });
+      const serverResult = await withTimeout(
+        listPublishedPostsAction({
+          pageIndex: 0,
+          locale: locale,
+          pageSize: 1000,
+        }),
+        5000,
+        { success: false as const, error: 'Timeout' }
+      );
       if (serverResult.success && serverResult.data) {
         const data = serverResult.data as { posts: PublicPost[] };
         data.posts.forEach((post: PublicPost) => {
