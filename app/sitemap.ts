@@ -1,13 +1,16 @@
 import { listPublishedPostsAction, type PublicPost } from '@/actions/blogs/posts'
 import { siteConfig } from '@/config/site'
 import { DEFAULT_LOCALE, LOCALES } from '@/i18n/routing'
-import { getPosts } from '@/lib/getBlogs'
 import { MetadataRoute } from 'next'
 
 // 确保 siteUrl 没有尾部斜杠
 const siteUrl = siteConfig.url.replace(/\/$/, '')
 
 type ChangeFrequency = 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never' | undefined
+
+// 路由段配置：强制动态生成，确保每次请求都生成最新的 sitemap
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 // 添加超时辅助函数
 async function withTimeout<T>(
@@ -23,6 +26,33 @@ async function withTimeout<T>(
   } catch (error) {
     return fallback;
   }
+}
+
+// 简化博客数据获取，避免超时
+async function getBlogPostsSafely(locale: string): Promise<PublicPost[]> {
+  const posts: PublicPost[] = [];
+  
+  // 只尝试从 server action 获取，减少重复请求
+  try {
+    const serverResult = await withTimeout(
+      listPublishedPostsAction({
+        pageIndex: 0,
+        locale: locale as any,
+        pageSize: 1000,
+      }),
+      3000, // 减少超时时间到 3 秒
+      { success: false as const, error: 'Timeout' }
+    );
+    
+    if (serverResult.success && serverResult.data) {
+      const data = serverResult.data as { posts: PublicPost[] };
+      return data.posts || [];
+    }
+  } catch (error) {
+    console.error(`Error loading posts for locale ${locale}:`, error);
+  }
+  
+  return posts;
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -71,67 +101,36 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const allBlogSitemapEntries: MetadataRoute.Sitemap = [];
 
-  // 添加错误处理和超时，确保即使博客数据加载失败，sitemap 也能正常生成
-  // 设置 5 秒超时，避免 sitemap 生成时间过长
-  for (const locale of LOCALES) {
-    try {
-      const { posts: localPosts } = await withTimeout(
-        getPosts(locale),
-        5000,
-        { posts: [] }
-      );
-      localPosts
-        .filter((post) => post.slug && post.status !== "draft")
-        .forEach((post) => {
-          const slugPart = post.slug.replace(/^\//, "").replace(/^blogs\//, "");
-          if (slugPart) {
-            const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
-            const blogUrl = `${siteUrl}${localePrefix}/blogs/${slugPart}`
-            allBlogSitemapEntries.push({
-              url: blogUrl,
-              lastModified: post.metadata?.updatedAt || post.published_at || new Date(),
-              changeFrequency: 'daily' as ChangeFrequency,
-              priority: 0.7,
-            });
-          }
-        });
-    } catch (error) {
-      // 静默处理错误，继续生成其他部分的 sitemap
-      console.error(`Error loading posts for locale ${locale}:`, error);
-    }
-  }
-
-  for (const locale of LOCALES) {
-    try {
-      const serverResult = await withTimeout(
-        listPublishedPostsAction({
-          pageIndex: 0,
-          locale: locale,
-          pageSize: 1000,
-        }),
-        5000,
-        { success: false as const, error: 'Timeout' }
-      );
-      if (serverResult.success && serverResult.data) {
-        const data = serverResult.data as { posts: PublicPost[] };
-        data.posts.forEach((post: PublicPost) => {
+  // 简化博客数据获取，只使用一个数据源，避免重复和超时
+  // 并行获取所有语言的数据，但设置较短的超时时间
+  const blogPostsPromises = LOCALES.map(locale => 
+    getBlogPostsSafely(locale).catch(() => [])
+  );
+  
+  try {
+    const allPostsResults = await Promise.all(blogPostsPromises);
+    
+    LOCALES.forEach((locale, index) => {
+      const posts = allPostsResults[index] || [];
+      posts
+        .filter((post) => post.slug && post.status === "published")
+        .forEach((post: PublicPost) => {
           const slugPart = post.slug?.replace(/^\//, "").replace(/^blogs\//, "");
           if (slugPart) {
             const localePrefix = locale === DEFAULT_LOCALE ? '' : `/${locale}`
             const blogUrl = `${siteUrl}${localePrefix}/blogs/${slugPart}`
             allBlogSitemapEntries.push({
               url: blogUrl,
-              lastModified: post.published_at || new Date(),
+              lastModified: post.published_at ? new Date(post.published_at) : new Date(),
               changeFrequency: 'daily' as ChangeFrequency,
               priority: 0.7,
             });
           }
         });
-      }
-    } catch (error) {
-      // 静默处理错误，继续生成其他部分的 sitemap
-      console.error(`Error loading server posts for locale ${locale}:`, error);
-    }
+    });
+  } catch (error) {
+    // 静默处理错误，继续生成其他部分的 sitemap
+    console.error('Error loading blog posts for sitemap:', error);
   }
 
   const uniqueBlogPostEntries = Array.from(
