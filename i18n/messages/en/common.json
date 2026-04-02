@@ -111,6 +111,18 @@
             {
               "href": "https://paste-image.com/",
               "name": "Paste Image"
+            },
+            {
+              "href": "https://linkedinbold.com/",
+              "name": "LinkedIn Bold",
+              "target": "_blank",
+              "rel": "noopener noreferrer"
+            },
+            {
+              "href": "https://simbolos.app/",
+              "name": "Simbolos",
+              "target": "_blank",
+              "rel": "noopener noreferrer"
             }
           ]
         },
