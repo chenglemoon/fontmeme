@@ -136,6 +136,23 @@
           ]
         },
         {
+          "title": "Tool",
+          "links": [
+            {
+              "href": "https://counter-online.com/",
+              "name": "Counter Online",
+              "target": "_blank",
+              "rel": "noreferrer nofollow noopener"
+            },
+            {
+              "href": "https://taptempo.online/",
+              "name": "Tap Tempo",
+              "target": "_blank",
+              "rel": "noreferrer nofollow noopener"
+            }
+          ]
+        },
+        {
           "title": "Languages",
           "links": [
             {
