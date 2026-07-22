@@ -177,6 +177,29 @@
           ]
         },
         {
+          "title": "My Other Project",
+          "links": [
+            {
+              "href": "https://pantone-birth-chart.com/",
+              "name": "Pantone Birth Chart",
+              "target": "_blank",
+              "rel": "noreferrer nofollow noopener"
+            },
+            {
+              "href": "https://birthdaycolor.org/",
+              "name": "Birthday Color",
+              "target": "_blank",
+              "rel": "noreferrer nofollow noopener"
+            },
+            {
+              "href": "https://openwhenletters.net/",
+              "name": "Open When Letters",
+              "target": "_blank",
+              "rel": "noreferrer nofollow noopener"
+            }
+          ]
+        },
+        {
           "title": "Languages",
           "links": [
             {
